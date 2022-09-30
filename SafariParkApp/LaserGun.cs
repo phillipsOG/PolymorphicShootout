@@ -14,7 +14,7 @@ namespace SafariParkApp
 
         public override string Shoot()
         {
-            return $"{base.Shoot()} BEAM BEAM BEAM";
+            return $"{base.Shoot()}: BEAM BEAM BEAM";
         }
 
     }

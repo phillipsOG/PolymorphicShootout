@@ -14,10 +14,10 @@ namespace SafariParkApp
 
         public override string Shoot()
         {
-            return $"{base.Shoot()} WET WET WET";
+            return $"{base.Shoot()}: WET WET WET";
         }
 
-        public override string ToString()
+        public override string? ToString()
         {
             return base.ToString();
         }

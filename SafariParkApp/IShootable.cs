@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SafariParkApp
 {
-    internal interface IShootable
+    public interface IShootable
     {
         string Shoot();
     }

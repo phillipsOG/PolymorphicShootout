@@ -4,6 +4,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        #region Commented Code
         /*
         Person cathy = new Person("Catherine", "French", 35);
         //Console.WriteLine(cathy.GetFullName());
@@ -31,17 +32,17 @@ internal class Program
         int x = 3;
         */
 
-        Hunter laura = new Hunter("Laura", "Tozer", "Sony Beta 10000") { Age = 21 };
+        //Hunter laura = new Hunter("Laura", "Tozer", "Sony Beta 10000") { Age = 21 };
         //Console.WriteLine(laura.Shoot());
 
-        Hunter lizzie = new Hunter() { FirstName = "Elizabeth", LastName = "Windsor", Age = 99 }; // Does not work without parameterless constructor
-        lizzie.shooter = lizzie.FirstName;
+        //Hunter lizzie = new Hunter() { FirstName = "Elizabeth", LastName = "Windsor", Age = 99 }; // Does not work without parameterless constructor
+        //lizzie.shooter = lizzie.FirstName;
         //Console.WriteLine(lizzie.Shoot());
         //Console.WriteLine(lizzie);
 
-        var lewis = new Person() { FirstName = "Lewis" };
-        laura.shooter = lizzie.shooter;
-        Console.WriteLine(laura.Shoot());
+        //var lewis = new Person() { FirstName = "Lewis" };
+        //laura.shooter = lizzie.shooter;
+        //Console.WriteLine(laura.Shoot());
 
         //Console.WriteLine("Lewis ToString() " + lewis);
         //Console.WriteLine("Lewis GetHashCode() " + lewis.GetHashCode());
@@ -74,25 +75,35 @@ internal class Program
         //{
         //    Console.WriteLine(m.Move());
         //}
+        #endregion
 
-        var w = new WaterPistol("Supersoaker");
+        #region Polymorphic Shootout
+        var superSoaker = new WaterPistol("Supersoaker");
         var laser = new LaserGun("LASERBEAMR");
-        var hunterShootable = new Hunter("John", "Doe");
+        var waterPistol = new WaterPistol("Water Pistol");
+        var gatlingLaser = new LaserGun("Gatling Laser");
+
+        var hunterShootable1 = new Hunter("John", "Doe", laser);
+        var hunterShootable2 = new Hunter("Connor", "Phillips", superSoaker);
+        var hunterShootable3 = new Hunter("Adam", "Reed", gatlingLaser);
+        var hunterShootable4 = new Hunter("Bruce", "Wayne", waterPistol);
         var camera = new Camera("Nikon 3000");
 
-        var weaponList = new List<IShootable>()
+        var hunterList = new List<IShootable>()
         {
-            w,
-            laser,
-            hunterShootable,
-            camera
+            hunterShootable1,
+            hunterShootable2,
+            hunterShootable3,
+            hunterShootable4
         };
 
-        foreach (var item in weaponList)
+        foreach (var item in hunterList)
         {
-            //Console.WriteLine(item.ToString());
-            //Console.WriteLine(item.Shoot());
+            //Console.WriteLine(item);
+            Console.WriteLine(item.Shoot());
         }
+
+        #endregion
     }
 
     public static void SpartaWrite(Object obj)

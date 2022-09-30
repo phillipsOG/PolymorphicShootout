@@ -12,7 +12,7 @@ namespace SafariParkApp
 
         public virtual string Shoot()
         {
-            return $"You shoot with your {_brand}";
+            return $"{_brand}";
         }
 
         public new virtual string? ToString()

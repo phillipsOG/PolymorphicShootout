@@ -3984,34 +3984,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jason\\.nuget\\packages\\": {}
+    "C:\\Users\\Adam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jason\\Desktop\\AdamProject\\SafariPark\\SafariParkTests\\SafariParkTests.csproj",
+      "projectUniqueName": "C:\\Users\\Adam\\Documents\\Sparta\\Academy\\GitHub\\PolymorphicShootout\\SafariParkTests\\SafariParkTests.csproj",
       "projectName": "SafariParkTests",
-      "projectPath": "C:\\Users\\Jason\\Desktop\\AdamProject\\SafariPark\\SafariParkTests\\SafariParkTests.csproj",
-      "packagesPath": "C:\\Users\\Jason\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jason\\Desktop\\AdamProject\\SafariPark\\SafariParkTests\\obj\\",
+      "projectPath": "C:\\Users\\Adam\\Documents\\Sparta\\Academy\\GitHub\\PolymorphicShootout\\SafariParkTests\\SafariParkTests.csproj",
+      "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adam\\Documents\\Sparta\\Academy\\GitHub\\PolymorphicShootout\\SafariParkTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jason\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.bepinex.dev/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Jason\\Desktop\\AdamProject\\SafariPark\\SafariParkApp\\SafariParkApp.csproj": {
-              "projectPath": "C:\\Users\\Jason\\Desktop\\AdamProject\\SafariPark\\SafariParkApp\\SafariParkApp.csproj"
+            "C:\\Users\\Adam\\Documents\\Sparta\\Academy\\GitHub\\PolymorphicShootout\\SafariParkApp\\SafariParkApp.csproj": {
+              "projectPath": "C:\\Users\\Adam\\Documents\\Sparta\\Academy\\GitHub\\PolymorphicShootout\\SafariParkApp\\SafariParkApp.csproj"
             }
           }
         }
