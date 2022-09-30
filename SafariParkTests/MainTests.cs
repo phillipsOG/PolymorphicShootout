@@ -63,5 +63,32 @@ namespace SafariParkTests
 
             Assert.That(test3D, Is.EqualTo(expected3D));
         }
+
+        #region Shootout Tests
+        [Test]
+        public void GivenAHunterObjectWithALaserGunIShootable_HunterShootMethod_ReturnsCorrectString()
+        {
+            var laser = new LaserGun("Laser Gun");
+            var testHunter = new Hunter("John", "Doe", laser);
+
+            string shootResult = testHunter.Shoot();
+            string expectedResult = "John Doe takes a shot with their Laser Gun: BEAM BEAM BEAM";
+
+            Assert.That(shootResult, Is.EqualTo(expectedResult));
+        }
+
+        [Test]
+        public void GivenAHunterObjectWithAWaterGunIShootable_HunterShootMethod_ReturnsCorrectString()
+        {
+            var waterPistol = new WaterPistol("Water Gun");
+            var testHunter = new Hunter("John", "Doe", waterPistol);
+
+            string shootResult = testHunter.Shoot();
+            string expectedResult = "John Doe takes a shot with their Water Gun: WET WET WET";
+
+            Assert.That(shootResult, Is.EqualTo(expectedResult));
+        }
+        #endregion
+
     }
 }
