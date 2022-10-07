@@ -4,7 +4,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        #region Commented Code
+        
         /*
         Person cathy = new Person("Catherine", "French", 35);
         //Console.WriteLine(cathy.GetFullName());
@@ -75,7 +75,6 @@ internal class Program
         //{
         //    Console.WriteLine(m.Move());
         //}
-        #endregion
 
         #region Polymorphic Shootout
         var superSoaker = new WaterPistol("Supersoaker");
