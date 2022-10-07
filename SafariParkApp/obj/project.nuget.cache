@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wYwZpAb8y66v7uvsQvk/wDLS+VBZp2EAKI/knJQe1nNKp0be6VYN0giePUC+ehMGjAhp8l7iR4deywcj5qPOeQ==",
+  "dgSpecHash": "R2V7Mp8ZJ4o9TxZZfrie1Rwo+E7VjwGQiJei/+t9aGaFa/FSOJknH8/3YZdc5epYIBGl6OV97EwVz9+jVTasnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jason\\Documents\\PolymorphicShootout\\SafariParkApp\\SafariParkApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jason\\.nuget\\packages\\coverlet.msbuild\\3.1.2\\coverlet.msbuild.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
