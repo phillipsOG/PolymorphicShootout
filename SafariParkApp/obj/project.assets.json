@@ -8,27 +8,27 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Adam\\.nuget\\packages\\": {}
+    "C:\\Users\\Jason\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adam\\Documents\\Sparta\\Academy\\GitHub\\PolymorphicShootout\\SafariParkApp\\SafariParkApp.csproj",
+      "projectUniqueName": "C:\\Users\\Jason\\Documents\\PolymorphicShootout\\SafariParkApp\\SafariParkApp.csproj",
       "projectName": "SafariParkApp",
-      "projectPath": "C:\\Users\\Adam\\Documents\\Sparta\\Academy\\GitHub\\PolymorphicShootout\\SafariParkApp\\SafariParkApp.csproj",
-      "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adam\\Documents\\Sparta\\Academy\\GitHub\\PolymorphicShootout\\SafariParkApp\\obj\\",
+      "projectPath": "C:\\Users\\Jason\\Documents\\PolymorphicShootout\\SafariParkApp\\SafariParkApp.csproj",
+      "packagesPath": "C:\\Users\\Jason\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jason\\Documents\\PolymorphicShootout\\SafariParkApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jason\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.bepinex.dev/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
